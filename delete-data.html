@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpendPlan — Удаление данных / Delete your data</title>
+<style>
+  :root { --bg: #ffffff; --text: #1c1f2a; --muted: #5b6070; --accent: #454E9E; --line: #e4e6ee; --card: #f4f5fa; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15171f; --text: #e9eaf0; --muted: #a3a7b6; --accent: #9aa3ff; --line: #2a2d39; --card: #1d2029; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { margin: 6px 0; }
+  ol { padding-left: 22px; }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border-radius: 12px; padding: 12px 16px; margin: 16px 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="muted"><a href="#ru">Русский</a> · <a href="#en">English</a></nav>
+
+<section id="ru" lang="ru">
+<h1>Как удалить данные SpendPlan</h1>
+<p class="muted">Приложение SpendPlan, разработчик Nur Apps Studio. Аккаунтов в приложении нет — данные хранятся у вас, и большую часть вы удаляете сами.</p>
+
+<h2>1. Данные на телефоне</h2>
+<p>Планы, конверты, доходы, траты, шаблоны и настройки.</p>
+<ol>
+  <li>Удалить отдельные планы: «Ещё» → «Планы» → значок изменения у плана → «Удалить план».</li>
+  <li>Удалить всё сразу: настройки Android → «Приложения» → SpendPlan → «Память» → «Очистить данные».</li>
+  <li>Или просто удалите приложение — данные удалятся вместе с ним.</li>
+</ol>
+
+<h2>2. Копии на Google Диске</h2>
+<p>Есть, только если вы подключали Google Диск. Копии хранятся в вашем аккаунте Google, у разработчика доступа к ним нет.</p>
+<ol>
+  <li>Остановить новые копии: «Ещё» → «Google Диск» → «Отключить Google Диск».</li>
+  <li>Удалить сохранённые копии: откройте <a href="https://drive.google.com">drive.google.com</a>, найдите файлы <code>budget-backup.txt</code> и <code>budget-ГГГГ-ММ-ДД.txt</code>, удалите их и очистите корзину.</li>
+  <li>Отозвать доступ приложения к Диску: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> → SpendPlan → «Удалить все связи».</li>
+</ol>
+
+<h2>3. Копии в папке на телефоне и в файлах</h2>
+<p>Если вы выбирали папку для автокопии или сохраняли копию в файл, удалите эти файлы в приложении «Файлы» на телефоне.</p>
+
+<h2>4. Отчёты о сбоях и статистика</h2>
+<p>Технические отчёты о сбоях (Firebase Crashlytics) и обезличенная статистика (Google Analytics для Firebase). Финансовых данных в них нет.</p>
+<ul>
+  <li>Удаляются автоматически: отчёты о сбоях — через 90 дней, статистика, связанная с устройством, — через 2 месяца.</li>
+  <li>Удалить раньше: напишите на <a href="mailto:itrf0088@gmail.com?subject=SpendPlan%20-%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">itrf0088@gmail.com</a> с темой «SpendPlan — удаление данных». Мы удалим всё, что можно связать с вашим устройством, в течение 30 дней и ответим вам. Общая статистика без привязки к устройству (например, число установок) может сохраниться.</li>
+</ul>
+
+<div class="card">Подробнее о том, какие данные есть у приложения, — в <a href="privacy-policy.html">Политике конфиденциальности</a>.</div>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>How to delete your SpendPlan data</h1>
+<p class="muted">App: SpendPlan, developer: Nur Apps Studio. The app has no accounts — your data stays with you, and you can delete most of it yourself.</p>
+
+<h2>1. Data on your phone</h2>
+<p>Plans, envelopes, incomes, expenses, templates and settings.</p>
+<ol>
+  <li>Delete individual plans: More → Plans → edit icon next to a plan → Delete plan.</li>
+  <li>Delete everything at once: Android Settings → Apps → SpendPlan → Storage → Clear data.</li>
+  <li>Or uninstall the app — the data is deleted with it.</li>
+</ol>
+
+<h2>2. Copies on Google Drive</h2>
+<p>Only if you connected Google Drive. The copies are stored in your Google account; the developer has no access to them.</p>
+<ol>
+  <li>Stop new copies: More → Google Drive → Disconnect Google Drive.</li>
+  <li>Delete saved copies: open <a href="https://drive.google.com">drive.google.com</a>, find the files <code>budget-backup.txt</code> and <code>budget-YYYY-MM-DD.txt</code>, delete them and empty the trash.</li>
+  <li>Revoke the app's Drive access: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> → SpendPlan → Delete all connections.</li>
+</ol>
+
+<h2>3. Copies in a phone folder or files</h2>
+<p>If you picked a folder for automatic backup or saved a backup file, delete those files in the Files app on your phone.</p>
+
+<h2>4. Crash reports and statistics</h2>
+<p>Technical crash reports (Firebase Crashlytics) and de-identified statistics (Google Analytics for Firebase). They contain no financial data.</p>
+<ul>
+  <li>Deleted automatically: crash reports after 90 days, device-linked statistics after 2 months.</li>
+  <li>To delete sooner, email <a href="mailto:itrf0088@gmail.com?subject=SpendPlan%20-%20data%20deletion">itrf0088@gmail.com</a> with the subject "SpendPlan — data deletion". We will delete everything that can be linked to your device within 30 days and reply to you. Aggregate statistics not linked to any device (such as install counts) may be kept.</li>
+</ul>
+
+<div class="card">For details on what data the app has, see the <a href="privacy-policy.html">Privacy Policy</a>.</div>
+</section>
+
+</main>
+</body>
+</html>
